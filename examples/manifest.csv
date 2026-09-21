@@ -1,0 +1,5 @@
+patient_id,center,split,ncct,cta,mask,label
+patient_train,1,train,/absolute/path/patient_train_CT.nii.gz,/absolute/path/patient_train_CTA_registered.nii.gz,/absolute/path/patient_train_aorta.nii.gz,1
+patient_train_02,1,train,/absolute/path/patient_train_02_CT.nii.gz,/absolute/path/patient_train_02_CTA_registered.nii.gz,/absolute/path/patient_train_02_aorta.nii.gz,0
+patient_internal,1,internal_test,/absolute/path/patient_internal_CT.nii.gz,,,1
+patient_external,2,external_test,/absolute/path/patient_external_CT.nii.gz,,,0
