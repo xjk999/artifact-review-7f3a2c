@@ -1,0 +1,27 @@
+# Model weights
+weights/*.pt
+weights/*.pth
+weights/*.ckpt
+
+# Local environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Medical images and experiment outputs
+*.nii
+*.nii.gz
+*.npy
+*.npz
+prepared/
+synthetic/
+runs/
+outputs/
+*.log
